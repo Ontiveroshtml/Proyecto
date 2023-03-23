@@ -1,13 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+
 
 function App() {
     return (
 
-     
+      <>
         <div className="containercard">
-          <br /><br /><br /><br /><br /><br /><br />
+          <br /> <br />
         <motion.div className="card" style={{ width: '20rem' }}
         initial={{ opacity: 2, scale: 0}}
         animate={{ opacity: 1, scale:1 }}
@@ -56,9 +58,12 @@ function App() {
     </motion.Card>
     
     </motion.div>
-        </div>
 
     
+        </div>
+
+    </>
+  
 
     );
   }
