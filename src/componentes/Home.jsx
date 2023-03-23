@@ -62,6 +62,9 @@ function App() {
     
         </div>
 
+        <div className="btn-github">
+        <Button variant="danger"><a className="linkgit" href="https://github.com/Ontiveroshtml/Proyecto" target="_blank" rel="noopener noreferrer" style={{color:"#ffff"}}>Mi github</a></Button>
+        </div>
     </>
   
 
